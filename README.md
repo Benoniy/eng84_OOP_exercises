@@ -1,6 +1,6 @@
 # OOP exercises:
 ## 01 - Fizzbuzz:
-1. To acheive oop fizzbuzz I created a class FizzBuzz
+1. To acheive oop fizzbuzz I created a class FizzBuzz in [***fizzbuzz.py***](https://github.com/Benoniy/eng84_OOP_exercises/blob/main/fizzbuzz.py)
 ```python
 class FizzBuzz:
 
@@ -44,8 +44,9 @@ class FizzBuzz:
     fizz_buzz.gen_100()
 ````
 ## 02 - Scrabble word calculator:
-1. To satisfy the requirements provided for this program I created a class ScrabbleCalc,  
-I decided to use a dictionary to store the values of each letter and progress from there.
+1. To satisfy the requirements provided for this program I created a class ScrabbleCalc in  
+   [***scrabble_word_calculator.py***](https://github.com/Benoniy/eng84_OOP_exercises/blob/main/scrabble_word_calculator.py), I decided to use a dictionary to store the values of each letter  
+   and progress from there.
 ```python
 class ScrabbleCalc:
 
