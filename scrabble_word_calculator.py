@@ -11,7 +11,7 @@ class ScrabbleCalc:
                             "y": 4, "z": 10
                             }
         self.word = ""  # For storing the original word
-        self.score = 0  # Tracks the score
+        self.score = 0  # Tracks the score of a word
 
     # Used to calculate the score of a word
     def calculate_score(self, word):
