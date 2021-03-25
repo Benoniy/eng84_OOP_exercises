@@ -17,12 +17,13 @@ class FizzBuzz:
 
     def gen_100(self):
         for num in range(1, 101, 1):
-            if self.is_fizz(num):
-                print("fizz")
+            if self.is_fizz_buzz(num):
+                print("fizzbuzz")
             elif self.is_buzz(num):
                 print("buzz")
-            elif self.is_fizz_buzz(num):
-                print("fizzbuzz")
+            elif self.is_fizz(num):
+                print("fizz")
+
             else:
                 print(num)
 
